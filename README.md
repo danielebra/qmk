@@ -23,7 +23,7 @@ strength. However, this particular order is based off a traditional
 positioning that is found on a Mac based keyboard.
 
 Symbol placement is based on usages in Python and Typescript programming
-languages with respect to vim key bindings. There has been intentional
+languages with respect to VIM key bindings. There has been intentional
 prevention of pressing sequential keys by the same finger (eg `+=` is
 completed with a roll). This allows for the next finger in a sequence to
 be moved and ready to press the next key. Moving fingers in this way is
@@ -37,10 +37,48 @@ resting position. Creating a more lazy and effortless (physically)
 typing experience. Move the keys to the fingers, rather than the fingers
 to the keys.
 
-Fingers are rested on the `home` (middle) row, with the thumb rested on
-the middle thumk cluster key.
+Fingers are placed on the `home` (middle) row, with the thumb resting on
+the middle thumb cluster key.
 
-## Vim
+Move less and be more accurate.
+
+## Why ortholinear?
+
+Fingers naturally want to move up and down, not zig zag. Put your hand in 
+the air and extend and contract your fingers, a keyboard should support 
+this movement rather than requiring staggered movements to prevent typewriter
+jamming that is no longer an issue with electronic keyboards.
+
+## Why Dvorak?
+
+An alternate layout to QWERTY that promotes using alternate hands, the home row 
+and has a decent layout for VIM too. No longer are the days of finger gymnastics.
+
+## Is it slow?
+
+It's more comfortable. Before changing layouts and moving to an ergonomic keyboard, 
+I could regularly type at 150 wpm bursts. It felt strenuous.
+
+Small form factor layouts are physically less demanding, Which is mostly achieved by switching away from `QWERTY`.
+
+Using this keyboard, I can consistently can type content above 100 wpm and burst to 130.
+
+There are plently of other avenues to approach first if improving typing speed is the goal, this is a journey of comfort.
+
+![](./images/typing-speed.jpg)
+
+
+## What about the learning curve?
+
+Create a layout that evolves with your workflow, that way the learning curve grows gradually with your needs.
+
+## What about going back to normal keyboards?
+
+It's easy to switch back to a normal keyboard because a small split keyboard 
+has a physical difference to a normal keyboard. This makes it easy 
+for muscle memory to develop to both physical designs.
+
+## VIM
 
 Go to begining of line is placed on the left side of the lefthome row: `^`
 
@@ -84,10 +122,9 @@ Dedicated `up arrow` key as this is widely used in various applications
 ## One handed operation
 
 When using a dedicated navigation device such as a track pad or mouse,
-we can no longer depend the idea of alternating between halves of the
-keyboard. Common actions when using half the keyboard are `copy` and
-`paste` during actions driven by the input device. These keys can be
-accessed via a left hand chord via the `Function` layer.
+we can no longer can depend on the idea of alternating between halves of the
+keyboard. Common supplementary actions when using the input device are `copy` and
+`paste`. These keys can be accessed with a left hand chord via the `Function` layer.
 
 Application switching behaviour can be achieved with the left side of
 keyboard via `cmd-tab` (home row mod for `u` and outer thumb key).
