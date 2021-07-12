@@ -6,7 +6,7 @@ This design originated from Programmer Dvorak and evolved overtime on an
 Ergodox. The layout became more simplified and now is in a 36 key form
 factor. The original ErgoDox layout can be found [here](https://configure.zsa.io/ergodox-ez/layouts/zLKjG/latest/0).
 
-Dvorak aims to have keys pressed by alternative hands, this idea has
+Dvorak aims to have keys pressed by alternate hands, this idea has
 spread throughout this layout. It is the reasoning for brackets being
 placed on opposite sides of the board and under dominant fingers on the
 home row.
@@ -102,6 +102,7 @@ keyboard via `cmd-tab` (home row mod for `u` and outer thumb key).
  |   ;  |   <  |   >  |   P  |   Y  |           |   F  |   G  |   C  |   R  |   L  |
  |------+------+------+------+------|           |------+------+------+------+------|
  |   A  |   O  |   E  |   U  |   I  |           |   D  |   H  |   T  |   N  |   S  |
+ | SHIFT| CTRL |  ALT | SUPER| HYPER|           | MEH  |SUPER | ALT  | CTRL |SHIFT |
  |------+------+------+------+------|           |------+------+------+------+------|
  |   '  |   Q  |   J  |   K  |   X  |           |   B  |   M  |   W  |   V  |   Z  |
  `----------------------------------'           `----------------------------------'
