@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Dvorak
  *
  * ,----------------------------------.           ,----------------------------------.
- * |   ;  |   <  |   >  |   P  |   Y  |           |   F  |   G  |   C  |   R  |   L  |
+ * |   ;  |   ,  |   .  |   P  |   Y  |           |   F  |   G  |   C  |   R  |   L  |
  * |------+------+------+------+------|           |------+------+------+------+------|
  * |   A  |   O  |   E  |   U  |   I  |           |   D  |   H  |   T  |   N  |   S  |
  * | SHIFT| CTRL |  ALT | SUPER| HYPER|           | MEH  | SUPER| ALT  | CTRL | SHIFT|

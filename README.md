@@ -136,7 +136,7 @@ keyboard via `cmd-tab` (home row mod for `u` and outer thumb key).
 ``` text
  
  ,----------------------------------.           ,----------------------------------.
- |   ;  |   <  |   >  |   P  |   Y  |           |   F  |   G  |   C  |   R  |   L  |
+ |   ;  |   ,  |   .  |   P  |   Y  |           |   F  |   G  |   C  |   R  |   L  |
  |------+------+------+------+------|           |------+------+------+------+------|
  |   A  |   O  |   E  |   U  |   I  |           |   D  |   H  |   T  |   N  |   S  |
  | SHIFT| CTRL |  ALT | SUPER| HYPER|           | MEH  |SUPER | ALT  | CTRL |SHIFT |
