@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                ,-----------------------.    ,------,---------------.
  *                | Esc  | Space   |      |    |      | Enter  | Up   |
  *                |      |->SYMBOL |      |    |      |->MOUSE |      |
- *                `----------------| Tab  |    |  Del |--------+------.
+ *                `----------------| Tab  |    |BkSpc |--------+------.
  *                                 |      |    |      |
  *                                 `------'    `------'
  */
@@ -143,6 +143,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 )
 
 };
+
+// Auto colon and quote on hold
+bool get_auto_shifted_key(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+      case KC_SCLN:
+          return true;
+      case KC_QUOT:
+          return true;
+      default:
+            return false;
+    }
+}
+
 
 void persistant_default_layer_set(uint16_t default_layer) {
   eeconfig_update_default_layer(default_layer);

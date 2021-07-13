@@ -17,10 +17,25 @@ on both sides of the keyboard, with the exception of `hyper` being
 dedicated the the left side and `meh` being dedicated to the right. Use
 `hyper` and `meh` at the operating system level to open specific
 programs, this allows for fast application switching. The modifier ordeing 
-is as follows: `shift`, `control`, `alt`, `super`. There are stronger 
-reasonings to have these placed in a different order based on finger
+is as follows: 
+
+`shift`, `control`, `alt`, `super`.
+
+There are arguments to have these placed in a different order based on finger
 strength. However, this particular order is based off a traditional
-positioning that is found on a Mac based keyboard.
+positioning that is found on a Mac based keyboard. It also allows for
+common `ctrl` based hotkeys to be conviently pressed on a dvorak layout.
+
+Such as: 
+
+  - start of line (`a`)
+  - end of line (`e`)
+  - previous (`p`)
+  - next (`n`)
+  - inner jump list (`i`)
+  - outer jump list (`o`)
+
+These would be more difficult to press if the `ctrl` key was on the index finger.
 
 Symbol placement is based on usages in Python and Typescript programming
 languages with respect to VIM key bindings. There has been intentional
@@ -129,6 +144,12 @@ keyboard. Common supplementary actions when using the input device are `copy` an
 Application switching behaviour can be achieved with the left side of
 keyboard via `cmd-tab` (home row mod for `u` and outer thumb key).
 
+## Auto shift keys
+
+Hold `;` to get `:`
+
+Hold `'` to get `"`
+
 ## Layers
 
 1.  Dvorak
@@ -146,7 +167,7 @@ keyboard via `cmd-tab` (home row mod for `u` and outer thumb key).
                 ,-----------------------.    ,------,---------------.
                 | Esc  | Space   |      |    |      | Enter  | Up   |
                 |      |->SYMBOL |      |    |      |->MOUSE |      |
-                `----------------| Tab  |    |  Del |--------+------.
+                `----------------| Tab  |    |BkSpc |--------+------.
                                  |      |    |      |
                                  `------'    `------'
 ```
@@ -218,3 +239,9 @@ keyboard via `cmd-tab` (home row mod for `u` and outer thumb key).
                                 |      |    |      |
                                 `------'    `------'
 ```
+
+## Improvement Considerations
+
+Trigger the symbol layer directly from the right side of the keyboard (middle thumb cluster key). This will provide access to the space bar but will disrupt other configurations such as the mouse layer which also manages media controls. `cmd + backtick` needs to be accounted for as a gesture that can be achieved with just one hand.
+
+Trigger the number layer directly from the left side of the keyboard (middle thumb cluster key), without needing to traverse via the symbol layer. This would result in both hands being engaged on the keyboard to engage the number layer. Likely can be solved with some smart layering approach.
